@@ -5,8 +5,8 @@ from tools.browser_tools import BrowserTools
 from tools.search_tools import SearchTools
 from langchain.agents import load_tools
 
-from langchain.llms import Ollama
-#from lanchain_community.llms import Ollama
+#from langchain.llms import Ollama
+from langchain_community.llms import Ollama
 
 class MarketingAnalysisAgents:
 	def __init__(self):
